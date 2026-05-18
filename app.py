@@ -18,12 +18,7 @@ from pathlib import Path
 import datetime
 
 # ─── Paths ────────────────────────────────────────────────────────────────────
-BELPEX_PATH = (
-    Path(__file__).parent.parent
-    / "03. Energy Analysis Platform"
-    / "data"
-    / "Day ahead Belgium from 2015.csv"
-)
+BELPEX_PATH = Path(__file__).parent / "data" / "Day ahead Belgium from 2015.csv"
 
 # ─── Color conventions (consistent across all charts) ───────────────────────
 # WA product (Weighted Average) → blue

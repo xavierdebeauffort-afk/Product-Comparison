@@ -69,7 +69,7 @@ Monthly averages are preserved in all scenarios; only within-month hourly varian
 ## Belpex data
 
 Static CSV sourced from EPEX Spot Belgium day-ahead prices (from 2015).  
-Path: `../03. Energy Analysis Platform/data/Day ahead Belgium from 2015.csv`
+Path: `data/Day ahead Belgium from 2015.csv` (bundled in the repo)
 
 The app shows the last available date on load. If the consumption file extends beyond the last Belpex date, missing hours are filled with the period median (flagged with a warning).
 
